@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../portf/files/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
+    <title>Портфолио </title>
+  </head>
+
+  <body>
+    <header class="page-header">
+      <div class="navbar">
+        <a href="index.html">Главная</a>
+        <a href="flask.html">Мое веб-приложение на flask</a>
+        <a href="https://vk.com/id83943622">Контакты</a>
+      </div>
+      <div class="container">
+        <a class="header-email" href="mailto: Kamysh30@gmail.com"></a>
+        <a class="header-phone" href="tel: +79263154009"></a>
+      </div>
+
+    </header>
+    <section class="form-int">
+        <div class="forma">
+          <form action='/answer2'autocomplete = off method='POST'>
+            <fieldset class="cont-inf">
+              <legend>Введите строку для сортировки</legend>
+              <p><label for="word">Строка:  </label><input type="text" id="word" name ="word"></p>
+            </fieldset>
+          
+          <p><input class="button-inf" name =‘message’ type="submit" value="Сортировать"></p>
+          <p class ='text'><label>Отсортированная строка </label>{{ans}}</p>
+          </form>
+        </div>
+      </section>
+      <footer class="page-footer">
+        <a href="https://www.instagram.com/kamysh30/" > <img src="../portf/files/inst.svg" width="25" height="25" class="logo">
+        </a>
+        <a href="https://vk.com/id83943622"> <img src="../portf/files/vk.svg" width="25" height="25" class="logo-vk"></a>
+  
+          <div class="container">
+  
+            <a class="footer-email" href="mailto: Kamysh30@gmail.com">Kamysh30@gmail.com</a>
+      <a class="footer-phone" href="tel:+79263154009">+7 926 315 40 09</a>
+        </div>
+      </footer>
+    </body>
+</html>
